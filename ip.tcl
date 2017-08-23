@@ -1,15 +1,14 @@
 ############################################################################
-# BlackIP 1.5
+# IP 1.0
 #!ip <ip> / <host> / <nickname>
 # - Now supports IPv6
 #
-#To activate .chanset #channel +ip | BlackTools : .set +ip
+#To activate .chanset #channel +ip | .set +ip
 #
 #To work, put the two tcl's in config from the arhive : json.tcl , http.tcl
 #                                   (if you don't have them instaled)
 #
-#                                             BLaCkShaDoW ProductionS
-#                       WwW.TclScripts.Net
+#                                             
 ###########################################################################
  
 #Set here who can execute the command (-|- for all)
@@ -172,4 +171,4 @@ if {$hostname != ""} {
     }
 }
  
-putlog "BlackIP 1.5 (IPv6 support) by BLaCkShaDoW Loaded"
+putlog "IP 1.0 (IPv4 & IPv6 support) "
